@@ -1,0 +1,54 @@
+.container-hero{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-hero .note-1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu-hero .note-2{
+    font-size: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(168, 104, 69);
+}
+.menu-hero .note-3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.profile-image img{
+    width: 450px;
+}
+.downpart-menu{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.btn-cv{
+    padding-right: 20px ;
+}
+.btn-cv button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    background: transparent;
+    color: rgb(168, 104, 69);
+    border: 2px solid rgb(168, 104, 69);
+    cursor: pointer;
+}
+.images-social img{
+    width: 40px;
+    margin-right: 20px;
+    color: rgb(168, 104, 69);
+}

@@ -1,0 +1,34 @@
+.container{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 1px 5%;
+    transition: 0.5s;
+}
+.container.dark{
+    background-color: #2e2d2d;
+}
+.container h1{
+    color: #fff;
+}
+.navbar{
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+.navbar li{
+    display: inline;
+    margin: 10px 15px;
+}
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
