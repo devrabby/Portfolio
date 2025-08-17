@@ -1,0 +1,43 @@
+.services{
+    width: 100%;
+    padding: 20px 5%;
+    background-color: #000;
+    color: #fff;
+}
+.services h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.service-underline{
+    border: 2px solid #a8684a;
+    width: 90px;
+    margin: auto;
+    margin-bottom: 50px ;
+}
+.services-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-card-notes{
+    border: 2px solid rgb(88, 85, 85);
+    margin: 40px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-img img{
+    width: 100px;
+}
+.service-card-notes:hover{
+    border: 2px solid #a8684a;
+    /* background: #a8684a; */
+    transform: scale(1.2);
+    transition: 0.9s;
+}
