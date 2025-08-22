@@ -7,25 +7,25 @@ import Services from './componet/Services/Services'
 import Project from './componet/Project/Project'
 import Contact from './componet/Contact/Contact'
 
-const  App = () => {
+const App = () => {
   const current_theme = localStorage.getItem('current_theme')
-  const [theme, setTheme] = useState(current_theme? current_theme: 'light');
+  const [theme, setTheme] = useState(current_theme ? current_theme : 'light');
 
-  useEffect(() =>{
-    localStorage.setItem('current_theme',theme)
-  },[theme])
+  useEffect(() => {
+    localStorage.setItem('current_theme', theme)
+  }, [theme])
   return (
-    <div className='w-full'>
-       <Navbar theme = {theme} setTheme={setTheme}/>
-       <Hero />
-       <About />
-       <Experience />
-       <Services />
-       <Project />
-       <Contact />
-       
+    <div className='bg-black relative overflow-hidden'>
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Hero />
+      <About />
+      <Experience />
+      <Services />
+      <Project />
+      <Contact />
+
     </div>
   )
 }
 
-export default  App
+export default App
